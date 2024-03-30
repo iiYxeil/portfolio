@@ -1,0 +1,215 @@
+* { font-family: Aclonica; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+
+
+
+
+
+
+
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1093412614/es/foto/fondo-abstracto-textura-de-m%C3%A1rmol-para-el-dise%C3%B1o.jpg?s=612x612&w=0&k=20&c=_udjutJji-J-6ykxR1kHOpQAWKQ2zVykR0w1Kqd38RQ=");
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+   
+    width: 100%;
+    margin-top: -30px;
+}
+
+
+.link h1 {
+    position: relative;
+    top: 15px;
+}
+nav .link {
+    background-color: rgb(7, 5, 5);
+ 
+    color: white;
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 70px;
+}
+
+
+nav .link .navi {
+    text-decoration: none;
+    padding: 0 200px;
+    color: gold;
+    position: relative;
+    top: 30px;
+    transition: color 1s, font-size 1s, top 1s;
+}
+
+
+nav .link .navi:hover {
+    color: white;
+    font-size: 30px;
+    transition: color 1s, font-size 1s;
+}
+
+
+
+
+.arriba {
+    display: flex;
+    margin: 20px;
+}
+
+
+.title {
+    margin-left: 40px;
+}
+
+
+.titulo {
+    display: inline-block;
+}
+
+
+.link img {
+  position: relative;
+  top: 55px;
+}
+
+
+main {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 50px;
+    padding-bottom: 400px;
+    position: relative;
+    border: 1px solid white;
+}
+
+
+#menu {
+    position: relative;
+    top: 260px;
+    float: left;
+    width: 40%;
+    text-align: center;
+    z-index: 1;
+    border: 1px solid;
+}
+
+
+.dia {
+    font-size: 30px;
+}
+
+
+.menu2 {
+    position: relative;
+    top: 260px;
+    float: right;
+    width: 40%;
+    text-align: center;
+    border: 1px solid;
+}
+
+
+.noche {
+    font-size: 30px;
+}
+
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.carta {
+    background-color: rgba(0, 255, 157, 0.397);
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    transition: background-color 1s, color 1s, font-size 1s, top 10s;
+}
+
+
+.carta:hover {
+    background-color: black;
+    color: gold;
+    transition:  background-color 1s, color 1s, font-size 1s;
+}
+
+
+
+
+#reserva{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    top: 200px;
+}
+
+
+h2 {
+    border-bottom: 1px solid black;
+    width: 190px;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+}
+.mesa input,
+.mesa select {
+    display: block;
+   
+}
+
+
+.datosdecontacto input,
+.datosdecontacto textarea {
+    display: block;
+}
+
+
+#contacto {
+    position: relative;
+    top: 200px;
+    padding: 20px 0 0 20px;
+ 
+}
+
+
+.redes img,
+.redes a{
+    display: inline-block;
+}
+
+
+.redes {
+    position: relative;
+    bottom: 30px;
+    display: block !important;
+}
+
+
+.datosdecontacto input[type="submit"] {
+    margin-top: 20px;
+}
+
+
+.ubicacion .titulo {
+    margin-bottom: 300px;
+    margin-left: 20px;
+    position: relative;
+    top: 250px;
+    display: flex;
+}
+
+
+.ubicacion img {
+    position: relative;
+    left: 30px
+}

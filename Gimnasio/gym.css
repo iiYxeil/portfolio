@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    padding: 8.3px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-left {
+    font-size: 50px;
+    position: relative;
+    right: 600px;
+}
+
+
+.nav-left h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+
+.color-n {
+    color: orange;
+}
+
+
+.nav-right{
+    position: relative;
+    left: 600px;
+}
+.nav-right li{
+  display: inline-block;
+  margin: 10px;
+  font-weight: 700;
+}
+
+
+.nav-right .btn-1 a{
+    border-radius: 40px;
+    background-color: orangered;
+    color: white;
+    padding: 9.2px 24.5px;
+}
+
+
+img {
+    height: 701;
+    width: 1920px;
+    width: 100%;
+}
+
+
+.texto {
+    text-align: center;
+    position: relative;
+    bottom: 505px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.texto h2{
+    font-size: 22px;
+    position: relative;
+    bottom: 20px;
+}
+.texto .color-2 {
+    color: orangered
+}
+
+
+
+
+.boton-entrenamiento {
+    background-color: orangered;
+    padding: 28px 5px 28px 5px;
+    margin: 0px 800px;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 210px;
+    z-index: 1;
+}
+
+
+.boton-entrenamiento a .color-entrenamiento {
+    color: white;
+    font-weight: 700;
+}
+
+
+.fondo {
+    background-color: black;
+    position: relative;
+    bottom: 270px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+
+.contenido-1 {
+    background-color: white;
+    border-radius: 40px;
+    position: relative;
+    top: 30px;
+}
+
+
+.contenido-1 .contenido-1-left {
+    float: left;
+    width: 40%;
+    margin: 40px;
+    font-size: 30px;
+    position: relative;
+    left: 170px;
+    top: 50px;
+}
+
+.contenido-1-left p.subtitulo-lista-1 {
+    font-size: 25px;
+}
+.contenido-1-left p.lista-1 {
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 40px;
+}
+
+p.lista-1:before {
+    content: '✔';
+}
+
+.contenido-1 .contenido-1-right {
+    float: right;
+    width: 40%;
+}
+
+
+.contenido-1 {
+    background-color: white;
+    border-radius: 40px;
+    overflow: ; /* Añadir overflow hidden para contener los elementos flotantes */
+}
+
+
+/* Clearfix para limpiar los elementos flotantes */
+.contenido-1::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.contenido-1-left h2 {
+    font-weight: 700;
+}
+ h2 .cuerpo {
+    color: orangered;
+}
+
+
+.contenido-1-right {
+
+}
+
+
+
+.imagen-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+
+.titulo-1 {
+    position: relative;
+    left: 0px;
+    top: 120px;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 2; /* Asegura que el título esté por encima de las imágenes */
+}
+
+.imagen-1 {
+    position: relative; /* Ajusta la posición relativa del contenedor de imágenes */
+}
+
+.imagen-1 img {
+    position: relative; /* Ajusta la posición relativa de cada imagen */
+    top: 130px; /* Ajusta la posición vertical según tus necesidades */
+    left: -20px; /* Ajusta la posición horizontal según tus necesidades */
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.grid li{
+    color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% auto auto auto auto;
+    background-color: darkgrey;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+}
+
+.titlegrid h1{
+    margin-left: 40px;
+}
